@@ -3,7 +3,7 @@ date: 2015-01-05 05:54:23
 title: Lorem lorem ipsum
 description: And I'm lorem sure lorem
 category: JS
-background: "red"
+background: "#d6ba32"
 ---
 
 # Lorem ipsum
