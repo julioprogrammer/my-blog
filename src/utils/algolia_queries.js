@@ -14,7 +14,9 @@ const PostsQuery = `{
                     date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
                     description
                     title
+                    background
                 }
+                timeToRead
                 excerpt(pruneLength: 5000)
             }
         }
