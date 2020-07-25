@@ -29,39 +29,37 @@ exports.createPages = ({ graphql, actions }) => {
 
 	return graphql(`
 		query PostList {
-			{
-				allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
-				  	edges {
-						node {
-					  		fields {
-								slug
-					  		}
-							frontmatter {
-								background
-								category
-								date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
-								description
-								title
-							}
-					  		timeToRead
+			allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
+				edges {
+					node {
+						fields {
+							slug
 						}
-						next {
-							frontmatter {
-								title
-							}
-							fields {
-								slug
-							}
+						frontmatter {
+							background
+							category
+							date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
+							description
+							title
 						}
-						previous {
-							fields {
-								slug
-							}
-							frontmatter {
-								title
-							}
+						timeToRead
+					}
+					next {
+						frontmatter {
+							title
 						}
-				  	}
+						fields {
+							slug
+						}
+					}
+					previous {
+						fields {
+							slug
+						}
+						frontmatter {
+							title
+						}
+					}
 				}
 			}
 		}
