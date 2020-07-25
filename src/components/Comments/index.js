@@ -5,13 +5,13 @@ import ReactDisqusComments from "react-disqus-comments"
 import * as S from "./styled"
 
 const Comments = ({ url, title }) => {
-    const completeURL = `https://julioccolv.com.br${url}`
+    const completeURL = `https://google.com.br${url}`
 
     return (
         <S.CommentsWrapper>
             <S.CommentsTitle>Comentários</S.CommentsTitle>
             <ReactDisqusComments
-                shortname="juliocesarcaitanooliveira"
+                shortname="julioccolv"
                 identifier={completeURL}
                 title={title}
                 url={completeURL}
