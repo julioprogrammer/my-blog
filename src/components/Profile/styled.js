@@ -8,12 +8,12 @@ export const ProfileWrapper = styled.section`
 `
 
 export const ProfileLink = styled(Link)`
-    color: #8899a6;
+    color: var(--texts);
     text-decoration: none;
     transition: color 0.5s;
 
     &:hover {
-        color: #1fa1f2;
+        color: var(--highlight);
     }
 `
 
@@ -29,7 +29,7 @@ export const ProfilePosition = styled.small`
 `
 
 export const ProfileDescription = styled.p`
-    color: #8899a6;
+    color: var(--texts);
     font-size: 1rem;
     font-weight: 300;
     line-height: 1.4;

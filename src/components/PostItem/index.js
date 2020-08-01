@@ -9,7 +9,7 @@ const PostItem = ({ slug, background, category, date, timeToRead, title, descrip
             <S.PostItemTag background={background}>{category}</S.PostItemTag>
             <S.PostItemInfo>
                 <S.PostItemDate>
-                    {date} * {timeToRead} min de leitura
+                    {date} • {timeToRead} min de leitura
                 </S.PostItemDate>
                 <S.PostItemTitle>
                     {title}
