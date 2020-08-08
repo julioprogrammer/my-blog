@@ -5,24 +5,24 @@ import ReactDisqusComments from "react-disqus-comments"
 import * as S from "./styled"
 
 const Comments = ({ url, title }) => {
-    const completeURL = `https://google.com.br${url}`
+  const completeURL = `https://julioccolv.netlify.com${url}`
 
-    return (
-        <S.CommentsWrapper>
-            <S.CommentsTitle>Comentários</S.CommentsTitle>
-            <ReactDisqusComments
-                shortname="julioccolv"
-                identifier={completeURL}
-                title={title}
-                url={completeURL}
-            />
-        </S.CommentsWrapper>
-    )
+  return (
+    <S.CommentsWrapper>
+      <S.CommentsTitle>Comentários</S.CommentsTitle>
+      <ReactDisqusComments
+        shortname="julioccolv"
+        identifier={completeURL}
+        title={title}
+        url={completeURL}
+      />
+    </S.CommentsWrapper>
+  )
 }
 
 Comments.propTypes = {
-    url: PropTypes.string.isRequired,
-    title: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
 }
 
 export default Comments

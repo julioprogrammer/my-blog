@@ -1,16 +1,14 @@
-const path = require("path")
-
-require("dotenv").config({ path: path.resolve(__dirname, '.env') })
+require("dotenv").config()
 
 const queries = require("./src/utils/algolia_queries")
 
 module.exports = {
   siteMetadata: {
-    title: `My Blog`,
+    title: `Julio Cesar`,
+    position: `Frontend Developer`,
     description: `A blog about frontend development and other cool stuff.`,
-    author: `@gmyblog`,
-    position: `Frontend Development`,
-    siteUrl: `https://johndoe.com.br`,
+    author: `@myblog`,
+    siteUrl: `https://julioccolv.netlify.com`,
   },
   plugins: [
     `gatsby-plugin-transition-link`,
@@ -56,7 +54,7 @@ module.exports = {
             },
           },
           `gatsby-remark-lazy-load`,
-          `gatsby-remark-prismjs`
+          `gatsby-remark-prismjs`,
         ],
       },
     },
@@ -69,7 +67,7 @@ module.exports = {
         apiKey: process.env.ALGOLIA_ADMIN_KEY,
         indexName: process.env.GATSBY_ALGOLIA_INDEX_NAME,
         queries,
-        chunkSize: 10000,
+        chunkSize: 10000, // default: 1000
         enablePartialUpdates: true,
       },
     },
@@ -89,5 +87,6 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
+    `gatsby-plugin-netlify-cms`,
   ],
 }
