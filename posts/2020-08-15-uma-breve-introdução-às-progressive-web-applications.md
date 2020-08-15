@@ -58,7 +58,7 @@ Enfim, existem várias meta tags que podemos utilizar para deixar nossos PWAs ma
 
 Uma solução criada para resolver este problema de forma fácil é um arquivo json chamado manifest.json, nesse arquivo eu posso colocar todas as configurações que até então eram colocadas em meta tags de uma forma bem simples. Exemplo de um arquivo manifest:
 
-```json
+```javascript
 {
     "short_name": "My App", // Nome que geralmente é usado e mostrado para o usuário
     "name": "My PWA App", // Nome real do aplicativo
@@ -86,7 +86,7 @@ Isso torna o desenvolvimento ainda mais rápido do que um desenvolvimento nativo
 
 Mas o que faz o PWA continuar funcionando offline ? AppCache ? não, não é AppCache até porque é bem chatinho de se trabalhar com AppCache. A carta na manga agora é o famoso Service Worker, com ele podemos realizar vários eventos (como um web worker da vida) e é nele que realizamos a criação do cache de nossa PWA o tornando praticamente uma app nativa, exemplo:
 
-```json
+```javascript
 var CACHE_NAME = 'static-v1'; // Aqui definimos o nome do nosso cache
 
 self.addEventListener('install', function (event) {
@@ -127,6 +127,6 @@ Então só nos resta pensar, será que vale realmente apena investir tempo com a
 
 Segue alguns links dos quais usei como referência:
 
-- (https://www.youtube.com/watch?v=sH7dlRnuh-k)
-- (http://blog.alura.com.br/palestra-offline-web-com-service-workers/)
-- (https://developers.google.com/web/fundamentals/getting-started/primers/service-workers?hl=pt-br#o_que_e_um_service_worker)
+- https://www.youtube.com/watch?v=sH7dlRnuh-k
+- http://blog.alura.com.br/palestra-offline-web-com-service-workers/
+- https://developers.google.com/web/fundamentals/getting-started/primers/service-workers?hl=pt-br#o_que_e_um_service_worker
