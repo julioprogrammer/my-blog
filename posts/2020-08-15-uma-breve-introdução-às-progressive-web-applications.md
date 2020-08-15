@@ -14,7 +14,7 @@ Hoje em dia os aplicativos nativos estão cada vez mais perdendo espaço no cora
 
 Mas muita calma, porque os desenvolvedores de smartphones já estão aumentando a quantidade de memória interna dos seus dispositivos, pronto problema resolvido.
 
-![PWA2](/assets/img/pwa2.gif)
+![PWA2](/assets/gifs/pwa2.gif)
 
 É pensando bem nem tanto né, pois isso soluciona apenas um problema que seria a quantidade de armazenamento interno que o seu smartphone precisa para instalar várias e várias apps, mas ainda não descarta o problema de nós termos que instalar essas várias e várias apps indesejadas apenas para realizar um pagamento do estacionamento. Mas qual seria a solução para esse problema? Já existe essa solução? Essa solução seria simples?
 
@@ -54,7 +54,7 @@ Voltando ao ponto do engajamento (uma das coisas em que eu considero muito impor
 
 Enfim, existem várias meta tags que podemos utilizar para deixar nossos PWAs mais parecidas com um app nativo, mas poxa colocar várias e várias meta tags não deve ser uma tarefa muito legal de se fazer.
 
-![PWA4](/assets/img/pwa4.gif)
+![PWA4](/assets/gifs/pwa4.gif)
 
 Uma solução criada para resolver este problema de forma fácil é um arquivo json chamado manifest.json, nesse arquivo eu posso colocar todas as configurações que até então eram colocadas em meta tags de uma forma bem simples. Exemplo de um arquivo manifest:
 
@@ -113,7 +113,7 @@ Você vai ver nada mais nada menos que sua app funcionando normalmente e offline
 
 Fácil não?, com apenas essas linhas de código você consegue criar um PWA sem muito esforço e agora o seu usuário não precisa mais realizar o download de um app nativo ocupando o espaço da memória interna do smartphone dele para apenas realizar uma consulta ou no nosso caso fazer o pagamento do estacionamento. Agora o usuário pode fazer tudo isso via browser ou se ele quiser pode adicionar o ícone do PWA em sua tela principal do smartphone sem se preocupar com a quantidade de memória interna que seu smartphone ainda possui. O que achou? Mágico não?
 
-![PWA6](/assets/img/pwa6.gif)
+![PWA6](/assets/gifs/pwa6.gif)
 
 É interessante citar um case que fez e ainda faz muito sucesso, o PWA de uma empresa de e-commerce da Índia chamado de Flipkart Lite, eu adicionei o PWA em minha tela principal e posso dizer que eu não notei diferença nenhuma do app nativo para o PWA deles, a experiência foi realmente de um app 100% nativo.
 

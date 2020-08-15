@@ -55,6 +55,18 @@ module.exports = {
           },
           `gatsby-remark-lazy-load`,
           `gatsby-remark-prismjs`,
+          {
+            resolve: `gatsby-remark-interactive-gifs`,
+            options: {
+              root: `${__dirname}`,
+              src: `${__dirname}/src/gifs`,
+              dest: `${__dirname}/public/static/gifs`,
+              play: `${__dirname}/src/images/play.gif`,
+              placeholder: `${__dirname}/src/images/placeholder.gif`,
+              loading: `${__dirname}/src/images/loading.gif`,
+              relativePath: `/static/gifs`
+            },
+          }
         ],
       },
     },
