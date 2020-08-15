@@ -1,8 +1,8 @@
 backend:
   name: github
-  repo: willianjusten/gatsby-course
+  repo: julioprogrammer/my-blog
   branch: master
-  site_domain: gatsby-course-will.netlify.com
+  site_domain: julioccolv.netlify.app
 
 publish_mode: editorial_workflow
 media_folder: "static/assets/img"
