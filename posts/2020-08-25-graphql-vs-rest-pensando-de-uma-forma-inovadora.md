@@ -243,17 +243,17 @@ Percebam uma coisa, no final de cada dado que estamos definindo estamos colocand
 
 Basicamente nós podemos utilizar o GraphQL de três formas, pois é, quem pensou que ele só servia para a criação de uma API básica estava errado.
 
-## Implementação simples de GraphQL com uma base de dados
+### Implementação simples de GraphQL com uma base de dados
 ![Graphql4](/assets/img/graphql-4.png)
-#### Implementação básica de uma API em GraphQL onde o usamos como um servidor para se comunicar e expor dados de uma base de dados.
+##### Implementação básica de uma API em GraphQL onde o usamos como um servidor para se comunicar e expor dados de uma base de dados.
 
-## Implementação de GraphQL com micro-serviços, APIs de terceiros e uma API legado
+### Implementação de GraphQL com micro-serviços, APIs de terceiros e uma API legado
 ![Graphql5](/assets/img/graphql-5.png)
-#### Implementação do GraphQL com outras APIs, no nosso caso com uma API legado, um micro-serviço e uma outra API de terceiros, utilizando o GraphQL deste jeito nós garantimos uma padronização dos dados e fora que agora o frontend (cliente) vai possuir apenas um endpoint para consumir.
+##### Implementação do GraphQL com outras APIs, no nosso caso com uma API legado, um micro-serviço e uma outra API de terceiros, utilizando o GraphQL deste jeito nós garantimos uma padronização dos dados e fora que agora o frontend (cliente) vai possuir apenas um endpoint para consumir.
 
-## Implementação do GraphQL consumindo uma base de dados e mais 3 APIs
+### Implementação do GraphQL consumindo uma base de dados e mais 3 APIs
 ![Graphql6](/assets/img/graphql-6.png)
-#### Implementação do GraphQL consumindo uma base de dados (exatamente a mesma implementação que a primeira apresentada a cima) e realizando a integração com mais 3 três APIs (como a ultima implementação que vimos acima), esta implementação é conhecida como “Abordagem Híbrida”.
+##### Implementação do GraphQL consumindo uma base de dados (exatamente a mesma implementação que a primeira apresentada a cima) e realizando a integração com mais 3 três APIs (como a ultima implementação que vimos acima), esta implementação é conhecida como “Abordagem Híbrida”.
 
 # Calma mas, e a performance e segurança?
 
