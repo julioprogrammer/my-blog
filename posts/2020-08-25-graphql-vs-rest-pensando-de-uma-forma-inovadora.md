@@ -9,7 +9,8 @@ image: assets/img/graphql-1.gif
 category: js
 background: "#D6BA32"
 ---
-![Graphql1](/assets/gifs/graphql-1.gif)
+![Graphql1](/assets/img/graphql-1.jpg)
+
 # Mas o que é GraphQL?
 
 Desenvolvido pelo Facebook o GraphQL é um novo padrão de API que fornece uma alternativa muito mais eficiente, poderosa e flexível do que o Rest. No quesito busca de dados, o GraphQL lhe permite realizar buscas declarativas onde um cliente especifica exatamente os dados de que ele precisa da API. Então agora ao invés de termos vários e vários endpoints o GraphQL expõe apenas um e responde com eficiência e precisão os dados solicitados.
@@ -244,16 +245,16 @@ Percebam uma coisa, no final de cada dado que estamos definindo estamos colocand
 Basicamente nós podemos utilizar o GraphQL de três formas, pois é, quem pensou que ele só servia para a criação de uma API básica estava errado.
 
 ### Implementação simples de GraphQL com uma base de dados
-![Graphql4](/assets/img/graphql-4.png)
-##### Implementação básica de uma API em GraphQL onde o usamos como um servidor para se comunicar e expor dados de uma base de dados.
+![Graphql4](/assets/img/graphql-4.jpg)
+> Implementação básica de uma API em GraphQL onde o usamos como um servidor para se comunicar e expor dados de uma base de dados.
 
 ### Implementação de GraphQL com micro-serviços, APIs de terceiros e uma API legado
-![Graphql5](/assets/img/graphql-5.png)
-##### Implementação do GraphQL com outras APIs, no nosso caso com uma API legado, um micro-serviço e uma outra API de terceiros, utilizando o GraphQL deste jeito nós garantimos uma padronização dos dados e fora que agora o frontend (cliente) vai possuir apenas um endpoint para consumir.
+![Graphql5](/assets/img/graphql-5.jpg)
+> Implementação do GraphQL com outras APIs, no nosso caso com uma API legado, um micro-serviço e uma outra API de terceiros, utilizando o GraphQL deste jeito nós garantimos uma padronização dos dados e fora que agora o frontend (cliente) vai possuir apenas um endpoint para consumir.
 
 ### Implementação do GraphQL consumindo uma base de dados e mais 3 APIs
-![Graphql6](/assets/img/graphql-6.png)
-##### Implementação do GraphQL consumindo uma base de dados (exatamente a mesma implementação que a primeira apresentada a cima) e realizando a integração com mais 3 três APIs (como a ultima implementação que vimos acima), esta implementação é conhecida como “Abordagem Híbrida”.
+![Graphql6](/assets/img/graphql-6.jpg)
+> Implementação do GraphQL consumindo uma base de dados (exatamente a mesma implementação que a primeira apresentada a cima) e realizando a integração com mais 3 três APIs (como a ultima implementação que vimos acima), esta implementação é conhecida como “Abordagem Híbrida”.
 
 # Calma mas, e a performance e segurança?
 
@@ -291,7 +292,7 @@ Com isso, conseguimos diminuir possíveis consultas gigantescas evitando a queda
 
 ![Graphql7](/assets/gifs/graphql-7.gif)
 
-Bem, eu sei que ainda há muitas coisas em relação ao GraphQL das quais ainda não falei como mutations, subscriptions e boas práticas mas como o artigo já está ficando meio grande então vou parando por aqui, futuramente irei publicar outro artigo em que explicarei melhor os conceitos de GraphQL já que este visava mostrar um pouco da diferença dele para o Rest e deixar vocês com uma pulga atrás da orelha na hora de determinar qual tecnologia usar na construção de sua aplicação backend, enfim, espero que tenham gostado e obrigado por lerem.
+Bem, eu sei que ainda há muitas coisas em relação ao GraphQL das quais ainda não falei como mutations, subscriptions e boas práticas mas como o artigo já está ficando meio grande então vou parando por aqui, futuramente irei publicar uma série de artigos em que explicarei melhor os conceitos de GraphQL e para isso criaremos uma API do zero, enfim, espero que tenham gostado e obrigado por lerem.
 
 ![Graphql8](/assets/gifs/graphql-8.gif)
 
