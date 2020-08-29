@@ -1,5 +1,5 @@
 ---
-title: "Chatbot: Crie o seu Chatbot com integração ao WhatsApp na prática #Parte 1"
+title: "Crie o seu Chatbot com integração ao WhatsApp na prática #Parte 1"
 description: Nessa nova série vamos aprender a como criar o nosso próprio
   Chatbot com integração ao WhatsApp de maneira fácil e totalmente prático.
   Nessa primeira parte vamos ver um pouco sobre as ferramentas que estaremos
